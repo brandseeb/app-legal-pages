@@ -41,8 +41,8 @@ title: EPS QuickLook サポート (Support)
 
 ### Q. インストールしたのにプレビューが表示されません
 1. アプリ本体（`EPSQuickLook.app`）を一度クリックして起動したかご確認ください（起動時に macOS へプラグインが自動登録されます）。
-2. アプリを起動してもプレビューが出ない場合は、Finder を再起動（Option キーを押しながら Dock の Finder アイコンを長押し >「再度開く」）するか、Mac を一度再起動してください。
-※初期設定やシステム設定での特別な操作は不要です。
+2. macOS の「システム設定」>「一般」>「ログイン項目と機能拡張」>「クイックルック」を開き、**EPSQuickLook**（`EPSQLExtension` / `EPSQLThumbnailExtension`）のスイッチがオンになっているかご確認ください（通常は自動でオンになります）。
+3. それでも表示されない場合は、Finder を再起動（Option キーを押しながら Dock の Finder アイコンを長押し >「再度開く」）するか、Mac を一度再起動してください。
 
 ### Q. 切り抜きパスのない通常の EPS ファイルも表示できますか？
 はい、Photoshop EPS（JPEG/バイナリ/ASCII85）および TIFF プレビュー付き EPS 全般に対応しています。
@@ -103,8 +103,8 @@ Engineered specifically for graphic designers, printing professionals, and DTP o
 
 ### Q: Previews are not appearing after installation.
 1. Make sure you have launched the main `EPSQuickLook.app` at least once (this automatically registers the extension with macOS).
-2. If previews still do not show, relaunch Finder (Option + right-click Finder in Dock > "Relaunch") or restart your Mac.
-*No manual configuration or system settings tweaks are required.*
+2. Go to macOS **System Settings** > **General** > **Login Items & Extensions** > scroll down to **Quick Look**, and verify that **EPSQuickLook** (`EPSQLExtension` and `EPSQLThumbnailExtension`) is toggled ON.
+3. If it still does not appear, relaunch Finder (Option + right-click Finder in Dock > "Relaunch") or restart your Mac.
 
 ### Q: Does it support standard EPS files without clipping paths?
 Yes! It supports high-resolution Photoshop EPS streams (JPEG/binary/ASCII85) and standard EPS files containing TIFF previews.
